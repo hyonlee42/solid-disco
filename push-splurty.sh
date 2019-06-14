@@ -2,7 +2,7 @@
 
 echo Pushing splurty to git and heroku...
 
-git add .
+git add --all
 git commit -m "$1"
 
 git push origin master
